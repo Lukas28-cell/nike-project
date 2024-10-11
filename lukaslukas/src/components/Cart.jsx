@@ -69,7 +69,7 @@ const Cart = () => {
               </div>
               <div className="grid items-center gap-2">
                 <p className="text-sm font-medium text-center">Taxes and Shipping Will Calculate At Shipping</p>
-             <a href="https://wa.me/+2349025840337?text=HI" className="button-theme bg-theme-cart text-white"> cHECK OUT</a>
+             <a href="https://wa.me/+2349025840337?text=HI" className="button-theme bg-theme-cart text-white"> CHECK OUT</a>
               </div>
             </div>
 

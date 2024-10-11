@@ -6,7 +6,9 @@ const Hero = ({ heroapi: { title, subtitle, btntext, img, sociallinks, videos } 
   // console.log(heroapi)
   return (
    <>
-      <div className='relative h-auto w-auto flex flex-col'>
+      <div className='relative h-auto w-auto flex flex-col overflow-x-clip'>
+        <p className=' z-50 relative top-24 text-4xl 
+        right-0 left-0 text-yellow-500 font-semibold'><marquee behavior="" direction="right">WHAT ARE YOU BUYING FROM US!</marquee></p>
         <div className='bg-theme clip-path h-[85vh] lg:h-[75vh] md:h-[65vh] sm:[55vh] 
       w-auto absolute top-0 left-0 right-0 opacity-100 z-10'></div>
         <div className='relative opacity-100 z-20 grid items-center justify-items-center nike-container'>
